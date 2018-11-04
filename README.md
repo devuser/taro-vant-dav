@@ -38,3 +38,7 @@ Vant-weapp文档地址:
 ```
 npm run lint
 ```
+
+## 截图
+
+![main-snap.png](./doc/main-snap.png)
