@@ -24,3 +24,17 @@ Vant-weapp文档地址:
 1. 下载`vant-weapp/dist`保存在`src/components/vant-weapp/dist`
 2. 在首页`index.jsx`中修改`usingComponents`,声明引入的组件
 3. 在`render`方法中直接组件比如`van-button`
+
+## lint
+
+在`package.json`中增加`lint`脚本
+```
+"scripts":{
+  "lint": "eslint --fix --ext .js,.vue,.jsx,.ts,.tsx src"
+}
+```
+
+可以在`shell`窗口中执行如下命令
+```
+npm run lint
+```

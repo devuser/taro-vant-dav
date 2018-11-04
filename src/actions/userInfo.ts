@@ -2,8 +2,10 @@ import {
   CHANGEUSERNAME
 } from '../constants/userInfo'
 
-export const changeUserName = () => {
+const  changeUserName = () => {
   return {
     type: CHANGEUSERNAME
   }
 }
+
+export default changeUserName

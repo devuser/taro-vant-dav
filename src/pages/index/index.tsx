@@ -30,9 +30,10 @@ type PageStateProps = {
 }
 
 type PageDispatchProps = {
-  add: () => void
-  dec: () => void
+  add: () => void,
+  dec: () => void,
   asyncAdd: () => any
+
   // fieldEdit:()=>any
   // counterLog:()=>any
   // onClick:()=>any
@@ -82,15 +83,13 @@ class Index extends Component {
     config: Config = {
     navigationBarTitleText: '首页',
     usingComponents: {
-
-  "van-row": '../../components/vant-weapp/dist/row/index',
-  "van-col": '../../components/vant-weapp/dist/col/index',
-  'van-cell-group': '../../components/vant-weapp/dist/cell-group/index',
-  'van-field': '../../components/vant-weapp/dist/field/index',
-  'van-button': '../../components/vant-weapp/dist/button/index'
-  'van-panel': '../../components/vant-weapp/dist/panel/index'
-}
-
+      // "van-row": '../../components/vant-weapp/dist/row/index',
+      // "van-col": '../../components/vant-weapp/dist/col/index',
+      'van-cell-group': '../../components/vant-weapp/dist/cell-group/index',
+      'van-field': '../../components/vant-weapp/dist/field/index',
+      'van-button': '../../components/vant-weapp/dist/button/index',
+      'van-panel': '../../components/vant-weapp/dist/panel/index'
+    }
   }
 
   componentWillReceiveProps (nextProps) {
