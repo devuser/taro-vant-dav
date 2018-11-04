@@ -1,7 +1,15 @@
 # taro-vant-dav
 build with taro, vant-weapp
 
-1. Taroa *^1.1.0-beta.2*
+关键词 `taro` `vant-weapp`
+
+在开发小程序中，尝试使用`Taro`作为基础框架，引入`vant-weapp`，`Taro-UI`。
+引入后者相对来说要简单一些，
+但是引入前者比较麻烦，我引入成功后分享出来，
+希望帮助到更多的朋友，降低整合成本。
+
+
+1. Taro  *^1.1.0-beta.2* 或 *^1.1.0*
 2. *Type Script*
 
 整合有赞的组件库 `vant-weapp`。
@@ -38,6 +46,7 @@ Vant-weapp文档地址:
 ```
 npm run lint
 ```
+
 
 ## 截图
 
