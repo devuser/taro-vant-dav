@@ -7,10 +7,10 @@ build with taro, vant-weapp
 整合有赞的组件库 `vant-weapp`。
 可以做整合的示例。
 
-Taro 官网地址: ![https://github.com/NervJS/taro](https://github.com/NervJS/taro)
+Taro 官网地址: [https://github.com/NervJS/taro](https://github.com/NervJS/taro)
 
 Vant-weapp文档地址:
-![https://youzan.github.io/vant-weapp](https://youzan.github.io/vant-weapp)
+[https://youzan.github.io/vant-weapp](https://youzan.github.io/vant-weapp)
 
 ## 安装Taro的新版本
 
